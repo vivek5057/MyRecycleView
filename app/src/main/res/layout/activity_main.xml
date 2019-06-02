@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical">
+
+    <Button
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List View"/>
+
+    <Button
+        android:id="@+id/custom_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom List View"/>
+
+
+    <Button
+        android:id="@+id/recycler_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recycler View"/>
+
+    <Button
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web View"/>
+
+
+
+</LinearLayout>
